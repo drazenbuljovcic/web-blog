@@ -58,23 +58,35 @@ const Page = () => {
             <h1>Observability whitepaper - Next.js</h1>
             <hr />
             <div className={css.blog_item_showcase}>
-              <figure className={css.blog_item_figure}>
+              <Link
+                className={css.linkthrough_cta}
+                href="https://github.com/drazenbuljovcic/otel-next/issues/1"
+              >
+                Check out the{" "}
+                <i
+                  style={{ fontSize: "2rem" }}
+                  className="fa-brands fa-github"
+                ></i>{" "}
+                issue
+                <i
+                  className={css.linkthrough_cta_link + " fa-solid fa-link"}
+                  // className="fa-solid fa-link"
+                ></i>
+              </Link>
+
+              {/* <figure className={css.blog_item_figure}>
                 <Image
                   src="/observability_paper_honeycomb_image.png"
                   alt="honeycomb visual"
-                  width={200}
-                  height={50}
+                  fill
                 ></Image>
-
-                <Link href="https://github.com/drazenbuljovcic/otel-next/issues/1">
-                  GH issue
-                </Link>
 
                 <figcaption className={css.blog_item_figure_caption}>
                   Observability whitepaper - Next.js
                 </figcaption>
-              </figure>
-              <div className={css.blog_item_short}>Honeycomb</div>
+              </figure> */}
+
+              {/* <div className={css.blog_item_short}>Honeycomb</div> */}
             </div>
           </section>
         </section>
