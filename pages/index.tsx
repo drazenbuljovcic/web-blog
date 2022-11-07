@@ -61,6 +61,7 @@ const Page = () => {
               <Link
                 className={css.linkthrough_cta}
                 href="https://github.com/drazenbuljovcic/otel-next/issues/1"
+                target="_blank"
               >
                 Check out the{" "}
                 <i
@@ -70,27 +71,30 @@ const Page = () => {
                 issue
                 <i
                   className={css.linkthrough_cta_link + " fa-solid fa-link"}
-                  // className="fa-solid fa-link"
                 ></i>
               </Link>
-
-              {/* <figure className={css.blog_item_figure}>
-                <Image
-                  src="/observability_paper_honeycomb_image.png"
-                  alt="honeycomb visual"
-                  fill
-                ></Image>
-
-                <figcaption className={css.blog_item_figure_caption}>
-                  Observability whitepaper - Next.js
-                </figcaption>
-              </figure> */}
-
-              {/* <div className={css.blog_item_short}>Honeycomb</div> */}
             </div>
           </section>
         </section>
       </main>
+      <footer className={css.footer}>
+        <div className={css.footer_addition}>
+          <a
+            href="https://drive.google.com/file/d/1cBvvH94DmbX1mE5gAA6dtFRyZG2wILQe/view?usp=share_link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fa-regular fa-envelope"></i>{" "}
+            <span>Personal Profile (CV)</span>
+          </a>
+        </div>
+        <span className={css.footer_email}>
+          <i className="fa-solid fa-inbox"></i>{" "}
+          <a href="mailto:drazen.buljovcic@gmail.com">
+            drazen.buljovcic@gmail.com
+          </a>
+        </span>
+      </footer>
     </div>
   );
 };

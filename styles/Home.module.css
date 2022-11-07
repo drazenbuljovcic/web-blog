@@ -1,8 +1,9 @@
 .container {
-  padding: 1rem;
+  min-height: 100vh;
   background-color: #0e1117;
   display: grid;
   grid-template-columns: 250px 1fr;
+  grid-template-rows: 1fr 100px;
   color: white;
 }
 
@@ -14,8 +15,9 @@
 }
 
 .main {
-  min-height: 100vh;
-  padding: 2rem 0;
+  padding: 1rem;
+  padding-top: 4rem;
+
   /* flex: 1; */
   /* display: flex;
   flex-direction: column;
@@ -32,7 +34,7 @@
 .aside {
   flex: 1;
   align-items: center;
-  margin: 0 0 1rem 0;
+  margin: 1rem;
   font-size: 1.5rem;
   justify-content: initial;
 }
@@ -154,4 +156,30 @@
   right: 0;
   bottom: 0;
   padding: 20px;
+}
+
+.footer {
+  border-top: 1px solid #ffffff;
+  grid-column: span 2;
+}
+
+.footer_addition {
+  padding: 1rem;
+}
+
+.footer_email {
+  padding: 1rem;
+  display: block;
+  border-top: 1px solid #ffffff;
+}
+
+.footer_email a,
+.footer_addition a {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    margin-top: 3rem;
+  }
 }
