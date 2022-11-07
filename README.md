@@ -1,5 +1,9 @@
 # Website Blog
 
+Feel free to see my profile and some work that I've been doing.
+
+---
+
 # Acess GH issue
 
 curl \
