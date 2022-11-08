@@ -18,7 +18,9 @@ const Page = () => {
             <h1 className={css.aside_figure_h1}>@zen</h1>
             <span className={css.aside_figure_h1_span1}>Dražen Buljovčić</span>
             <span className={css.aside_figure_h1_span2}>Software Engineer</span>
-            <span className={css.aside_figure_h1_span2}>Serbia 🇷🇸</span>
+            <span className={css.aside_figure_h1_span2}>
+              Serbia 🇷🇸 | Berlin 🇩🇪
+            </span>
           </figcaption>
 
           <nav className={css.aside_social}>
