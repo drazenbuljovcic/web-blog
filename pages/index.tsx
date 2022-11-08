@@ -104,6 +104,7 @@ const Page = () => {
                   </svg>
                 </p>
                 <p>The value proposition of this endeavour is immense.</p>
+                <p>Shout out to the Honeycomb community | @pollinators.</p>
               </div>
               <Image
                 src="/observability_paper_honeycomb_image.png"
