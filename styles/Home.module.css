@@ -112,12 +112,16 @@
 }
 
 .blog {
+  color: black;
+  padding-left: 1rem;
+  border-left: 1px solid #c9d1d9;
+  background-image: url("/paper.png");
 }
 
 .blog_item {
   padding: 2rem 1rem;
-  border-top: 1px solid #c9d1d9;
-  border-bottom: 1px solid #c9d1d9;
+  /* border-top: 1px solid #c9d1d9;
+  border-bottom: 1px solid #c9d1d9; */
 }
 
 .blog_item_showcase {
@@ -137,11 +141,14 @@
 }
 
 .linkthrough_cta {
+  color: white;
   width: 100%;
   margin-top: 1rem;
   border: 3px solid #6c2b2b;
   box-shadow: 0px 0px 10px 2px #6c2b2b;
-  background-color: #21262c;
+  color: #21262c;
+  background-image: url("/paper_linktrough.png");
+  filter: brightness(1.1);
   padding: 1rem;
   line-height: 3rem;
   border-radius: 10px;
@@ -156,6 +163,38 @@
   right: 0;
   bottom: 0;
   padding: 20px;
+}
+
+.linkthrough_image {
+  margin-top: 2rem;
+}
+.linkout_image_link {
+  max-width: 130px;
+  position: relative;
+}
+
+.linkout_image_link_text {
+  position: absolute;
+  font-size: 0.5rem;
+  bottom: 20px;
+  right: 0;
+}
+.linkout_image_link_text i {
+  font-size: 0.5rem;
+  padding-left: 0.2rem;
+}
+
+.linkout_link_text {
+  font-size: 1rem;
+}
+
+.main_text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+.main_text_item {
+  margin: 0;
+  line-height: 1.5rem;
 }
 
 .footer {

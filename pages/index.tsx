@@ -73,6 +73,65 @@ const Page = () => {
                   className={css.linkthrough_cta_link + " fa-solid fa-link"}
                 ></i>
               </Link>
+
+              <div className={css.main_text}>
+                <p className={css.main_text_item}>
+                  A small guide into instrumentation using our favorite platform
+                  for building applications - Next.js.
+                  <Image
+                    src="/nextjs_icon.png"
+                    alt="HoneyComb Observability whitepaper"
+                    width={25}
+                    height={25}
+                  ></Image>
+                </p>
+                <p className={css.main_text_item}>
+                  We are enabling <u>Observability Driven Development</u> by
+                  default!
+                </p>
+                <p className={css.main_text_item}>
+                  Creating a new product for the community around this framework
+                  and Vercel to easily visualize their application behavior
+                  through use of dashboards.
+                  <svg
+                    style={{ marginLeft: "20px", marginTop: "10px" }}
+                    fill="white"
+                    width="20"
+                    viewBox="0 0 76 65"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M37.5274 0L75.0548 65H0L37.5274 0Z" fill="black" />
+                  </svg>
+                </p>
+                <p>The value proposition of this endeavour is immense.</p>
+              </div>
+              <Image
+                src="/observability_paper_honeycomb_image.png"
+                alt="HoneyComb Observability whitepaper"
+                width={100}
+                height={100}
+                layout="responsive"
+                className={css.linkthrough_image}
+              ></Image>
+
+              <span className={css.linkout_image_link}>
+                <Image
+                  src="/honeycomb.svg"
+                  alt="honeycomb.io"
+                  width={100}
+                  height={100}
+                ></Image>
+                <span className={css.linkout_image_link_text}>
+                  <span>Powered by</span>{" "}
+                  <Link href={"https://www.honeycomb.io/"} target="_blank">
+                    <b>honeycomb</b>
+
+                    <i
+                      className={css.linkout_link_text + " fa-solid fa-link"}
+                    ></i>
+                  </Link>
+                </span>
+              </span>
             </div>
           </section>
         </section>
