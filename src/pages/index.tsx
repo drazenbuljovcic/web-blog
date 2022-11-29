@@ -60,10 +60,10 @@ const Page = () => {
             <h1>Observability whitepaper - Next.js</h1>
             <hr />
             <div className={css.blog_item_showcase}>
-              <p
+              <Link
                 className={css.linkthrough_cta}
-                // href="https://github.com/drazenbuljovcic/otel-next/issues/1"
-                // target="_blank"
+                href="https://github.com/drazenbuljovcic/otel-next/issues/1"
+                target="_blank"
                 onClick={() => window.dataLayer.push({ event: 'click_gh_issue' })}
               >
                 Check out the{" "}
@@ -75,7 +75,7 @@ const Page = () => {
                 <i
                   className={css.linkthrough_cta_link + " fa-solid fa-link"}
                 ></i>
-              </p>
+              </Link>
 
               <div className={css.main_text}>
                 <p className={css.main_text_item}>
